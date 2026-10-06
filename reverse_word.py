@@ -1,6 +1,6 @@
 def reverse_word():
     word = input("what is your word ? ")
-    for i in range (len(word)- 1,-1,1):
+    for i in range (len(word)- 1,-1,-1):
         print(word[i], end="")
 reverse_word()
 
