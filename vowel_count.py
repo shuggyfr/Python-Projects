@@ -1,5 +1,5 @@
 def vowel_check():
-    sentence = input("write a random sentence ")
+    sentence = input("write a random sentence ").lower()
     number_of_vowels = 0
     for letters in sentence:
         if letters in "aeiou":
