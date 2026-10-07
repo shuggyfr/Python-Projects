@@ -1,0 +1,21 @@
+def high_cpu_servers(servers):
+    high_cpu = {}
+    
+    for server in servers:
+        
+        if servers[server] > 80:
+            high_cpu[server] = servers[server]
+    # return high_cpu
+
+    ranked = sorted(high_cpu, key=high_cpu.get, reverse=True) # sorted(high_cpu sorts the names of the cpu, key=high_cpu.get sorts them according to the number, reverse=True (biggest number first)
+
+    for name in ranked:
+        print(f"{name}:{high_cpu[name]}")
+
+high_cpu_servers({
+    "web-01": 45,
+    "web-02": 92,
+    "db-01": 81,
+    "cache-01": 99,
+    "api-01": 67,
+})
