@@ -13,3 +13,5 @@ def is_valid_ip(s):
     return True              
 
 print(is_valid_ip("172.10.23.23.123"))
+
+# new way to reason problems - check if the requirements are false, if they are not false then the ip or case is True 
