@@ -11,6 +11,7 @@ def count_log_levels(filename):
 
 
             words = line.split()
+            
             if len(words)  < 3:
                  continue
             
