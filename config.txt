@@ -1,0 +1,7 @@
+# app settings
+host: localhost
+port: 8080
+
+debug: true
+name: my-app
+url: http://example.com
