@@ -1,0 +1,5 @@
+https://www.google.com
+https://github.com
+https://httpstat.us/500
+https://httpstat.us/200?sleep=5000
+https://this-site-does-not-exist-12345.com
