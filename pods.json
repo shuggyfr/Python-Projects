@@ -1,0 +1,7 @@
+[
+  {"name": "web-7f9c", "status": "Running", "restarts": 0},
+  {"name": "api-4b2d", "status": "CrashLoopBackOff", "restarts": 12},
+  {"name": "db-0", "status": "Running", "restarts": 7},
+  {"name": "cache-9a1e", "status": "Pending", "restarts": 0},
+  {"name": "worker-3c8f", "status": "Running", "restarts": 2}
+]
